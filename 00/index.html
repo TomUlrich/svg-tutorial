@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>00 Sandbox</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+
+            <!-- Line 1 -->
+
+            <div class="svg-wrapper">
+                <h2>Basic</h2>
+                <svg width="100" height="100" viewBox="0 0 200 200">
+                    <circle cx="100" cy="100" r="50" />
+                </svg>
+            </div>
+            <div class="width">width="100"</div>
+            <div class="height">height="100"</div>
+            <div class="viewbox">viewBox="0 0 200 200"</div>
+
+
+            <!-- Line 2 -->
+
+            <div class="svg-wrapper">
+                <h2>svg width/height: </h2>
+                <svg class="border-highlight" width="200" height="200" viewBox="0 0 200 200">
+                    <circle cx="100" cy="100" r="50" />
+                </svg>
+            </div>
+            <div class="width text-highlight">width="200"</div>
+            <div class="height text-highlight">height="200"</div>
+            <div class="viewbox">viewBox="0 0 200 200"</div>
+
+            <!-- Line 3 -->
+
+            <div class="svg-wrapper">
+                <h2>viewBox: Size of image elements</h2>
+                <svg width="200" height="200" viewBox="0 0 100 100">
+                    <circle fill="limegreen" cx="100" cy="100" r="50" />
+                </svg>
+            </div>
+            <div class="width">width="200"</div>
+            <div class="height">height="200"</div>
+            <div class="viewbox">viewBox="0 0 <span class="text-highlight">100 100</span>"</div>
+
+            <!-- Line 4 -->
+
+            <div class="svg-wrapper">
+                <h2>viewBox: Top-left coordinates</h2>
+                <svg width="200" height="200" viewBox="100 100 200 200">
+                    <circle cx="100" cy="100" r="50" />
+                </svg>
+            </div>
+            <div class="width">width="200"</div>
+            <div class="height">height="200"</div>
+            <div class="viewbox">viewBox="<span class="text-highlight"> 100 100</span> 200 200</div>
+
+            <!-- Line 5 -->
+
+            <div class="svg-wrapper">
+                <h2>viewBox: Top-left coordinates </h2>
+                <svg width="200" height="200" viewBox="-100 100 200 200">
+                    <circle cx="100" cy="100" r="50" />
+                </svg>
+            </div>
+            <div class="width">width="200"</div>
+            <div class="height">height="200"</div>
+            <div class="viewbox">viewBox="<span class="text-highlight">-100 100</span> 200 200</div>
+
+            <!-- Line 6 -->
+
+            <div class="svg-wrapper">
+                <h2>viewBox: Top-left coordinates </h2>
+                <svg width="200" height="200" viewBox="-100 -100 200 200">
+                    <circle cx="100" cy="100" r="50" />
+                </svg>
+            </div>
+            <div class="width">width="200"</div>
+            <div class="height">height="200"</div>
+            <div class="viewbox">viewBox="<span class="text-highlight"> -100 -100</span> 200 200</div>
+
+
+            <!-- Line 7 -->
+
+            <div class="svg-wrapper">
+                <h2>viewBox: Top-left coordinates </h2>
+                <svg width="200" height="200" viewBox="100 -100 200 200">
+                    <circle cx="100" cy="100" r="50" />
+                </svg>
+            </div>
+            <div class="width">width="200"</div>
+            <div class="height">height="200"</div>
+            <div class="viewbox">viewBox="<span class="text-highlight">100 -100</span> 200 200</div>
+
+            <!-- Line 8 -->
+
+            <div class="svg-wrapper">
+                <h2>Test </h2>
+                <svg width="200" height="200" viewBox="0 0 200 200">
+                    <circle cx="100" cy="100" r="50" />
+                </svg>
+            </div>
+            <div class="width">width="200"</div>
+            <div class="height">height="200"</div>
+            <div class="viewbox">viewBox="<span class="text-highlight">0 0</span> 200 200</div>
+
+            <!-- Line 9 -->
+
+            <div class="svg-wrapper">
+                <h2>Test </h2>
+                <svg width="100" height="100" viewBox="0 0 200 200">
+                    <circle cx="100" cy="100" r="50" />
+                </svg>
+            </div>
+            <div class="width">width="100"</div>
+            <div class="height">height="100"</div>
+            <div class="viewbox">viewBox="0 0 200 200"</div>
+
+            <!-- Line 10: Christmas Ornament -->
+
+            <div class="svg-wrapper">
+                <h2>Christmas Ornament</h2>
+                <svg width="200" height="200" viewBox="-100 -100 200 200">
+                    <circle cx="0" cy="20" r="70" fill="#D1495B" />
+                    <rect x="-17.5" y="-65" width="35" height="20" fill="#F79257" />
+                    <circle cx="0" cy="-75" r="12" fill="none" stroke="#F79257" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="width">width="200"</div>
+            <div class="height">height="200"</div>
+            <div class="viewbox">viewBox="-100 -100 200 200"</div>
+        </div>
+
+    </body>
+
+    </html>
